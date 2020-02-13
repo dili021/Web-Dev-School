@@ -15,21 +15,32 @@ ul {
   list-style: none;
 }
 
+main {
+  z-index: 2;
+}
+
 header {
   font-family: 'lato';
   border-bottom: 2px solid #d3d3d3;
-  -webkit-box-shadow: 0 2px 9px #272a31;
-          box-shadow: 0 2px 9px #272a31;
+  -webkit-box-shadow: 0 2px 9px black;
+          box-shadow: 0 2px 9px black;
+  z-index: 5;
+  position: relative;
 }
 
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 60px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  background: #272a31;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #ec5242), color-stop(70%, #272a31));
+  background: linear-gradient(to right, #ec5242 10%, #272a31 70%);
 }
 
 .social ul {
@@ -61,6 +72,14 @@ nav, .nav-links {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 50px;
+}
+
+nav h2, .nav-links h2 {
+  margin: 0 2.5em;
+  color: white;
+  text-shadow: 0 0 9px #272a31;
+  cursor: pointer;
 }
 
 .nav-links .nav-link {
@@ -83,29 +102,25 @@ nav, .nav-links {
   font-weight: bold;
   border: 4px solid #ec5242;
   border-radius: 10px;
+  -webkit-box-shadow: 0 2px 9px black;
+          box-shadow: 0 2px 9px black;
 }
 
 .nav-links :last-child:hover {
   scale: 1;
   background: #ec5242;
   color: #272a31;
+  text-shadow: 0 0 8px white;
   -webkit-transition: .4s;
   transition: .4s;
   font-size: 1.3em;
 }
 
-.logo {
-  background: url(/assets/logo.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  height: 10vh;
-  width: 10vw;
-  margin: 0 6em;
-}
-
 .about {
   width: 40vw;
+  border: 3px solid whitesmoke;
+  padding: 2em;
+  color: #272a31;
 }
 
 .about h1 {
@@ -117,7 +132,13 @@ nav, .nav-links {
   font-family: 'lato';
   font-weight: bolder;
   font-size: 3em;
-  text-shadow: 0 0 7px #ec5242;
+  text-shadow: 0 0 3px black;
+}
+
+.about h3 {
+  font-family: 'lato';
+  text-align: center;
+  padding-top: 1.5em;
 }
 
 .container {
@@ -125,6 +146,22 @@ nav, .nav-links {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  padding: 0 3em;
+  padding: 3em;
+  z-index: 1;
+  position: relative;
+}
+
+footer {
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #d3d3d3;
 }
 /*# sourceMappingURL=style.css.map */

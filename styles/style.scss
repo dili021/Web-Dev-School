@@ -18,18 +18,24 @@ body {
 ul {
     list-style: none;
 }
- 
+ main {
+     z-index: 2;
+ }
 // main css
 header {
     font-family: 'lato';
     border-bottom: 2px solid $myGrey;
-    box-shadow: 0 2px 9px $myBlack;
+    box-shadow: 0 2px 9px black;
+    z-index: 5;
+    position: relative;
 }
 
 .social {
     display: flex;
+    height: 60px;
     justify-content: end;
-    background: $myBlack;
+    align-items: center;
+    background: linear-gradient(to right, $myOrange 10%, $myBlack 70%);
     ul {
         display: flex;
         li {
@@ -49,6 +55,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
+    h2 {
+        margin: 0 2.5em;
+        color: white;
+        text-shadow: 0 0 9px $myBlack;
+        cursor: pointer;
+    }
  }
 
 .nav-links {
@@ -71,30 +84,26 @@ nav {
         font-weight: bold;
         border: 4px solid $myOrange;
         border-radius: 10px;
+        box-shadow: 0 2px 9px black;
     }
     :last-child:hover {
         scale: 1;
         background: $myOrange;
         color: $myBlack;
+        text-shadow: 0 0 8px white;
         transition: .4s;
         font-size: 1.3em;
-            }   
-    
+            }  
 }
 
 
-.logo {
-    background: url(/assets/logo.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 100%;;
-    height: 10vh;
-    width: 10vw;
-    margin: 0 6em;
 
-}
 .about {
     width: 40vw;
+    border: 3px solid whitesmoke;
+    padding: 2em;
+    color: $myBlack;
+    
     h1 {
         display: inline-block;
         margin: 0;
@@ -104,8 +113,13 @@ nav {
         font-family: 'lato';
         font-weight: bolder;
         font-size: 3em;
-        text-shadow: 0 0 7px $myOrange;
+        text-shadow: 0 0 3px black;
         
+    }
+    h3 {
+        font-family: 'lato';
+        text-align: center;
+        padding-top: 1.5em;
     }
 }
 .container {
@@ -113,5 +127,18 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    padding: 0 3em;   
+    padding: 3em;   
+    z-index: 1;
+    position: relative;
+    // margin-top: 5px;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $myGrey;
+    
+
 }
