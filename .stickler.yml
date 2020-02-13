@@ -1,3 +1,6 @@
 linters:
   stylelint:
     config: 'stylelint.config.js'
+  files:
+    ignore:
+      -'assets/fonts/*'
