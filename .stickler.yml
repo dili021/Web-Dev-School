@@ -1,7 +1,9 @@
 linters:
   stylelint:
     config: 'stylelint.config.js'
-  files:
+    csslint:
+
+files:
     ignore:
       -'assets/*'
       
