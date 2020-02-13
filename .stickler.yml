@@ -3,4 +3,4 @@ linters:
     config: 'stylelint.config.js'
   files:
     ignore:
-      -'assets/fonts/*'
+      '/assets/fonts/*'
