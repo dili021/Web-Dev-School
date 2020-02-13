@@ -13,6 +13,15 @@ body {
 
 ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 main {
@@ -26,6 +35,10 @@ header {
           box-shadow: 0 2px 9px black;
   z-index: 5;
   position: relative;
+}
+
+.mobile {
+  display: none;
 }
 
 .social {
@@ -125,7 +138,7 @@ nav h2, .nav-links h2 {
 }
 
 .about h1 {
-  display: inline-block;
+  display: block;
   margin: 0;
   padding: .5em;
   color: #ec5242;
@@ -164,5 +177,28 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   background: #d3d3d3;
+}
+
+@media (max-width: 767px) {
+  .no-mobile, nav, .nav-links {
+    display: none;
+  }
+  .mobile {
+    color: white;
+    display: block;
+  }
+  .container {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .container .about {
+    padding: 3em;
+    text-align: center;
+  }
+  .container .about h1 {
+    text-align: center;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
