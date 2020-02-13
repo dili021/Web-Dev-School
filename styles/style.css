@@ -33,6 +33,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   height: 60px;
+  padding: 0 1.5em;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
@@ -50,7 +51,7 @@ header {
 }
 
 .social ul li {
-  padding: 0 1em;
+  padding: 0 1.5em;
   color: #d3d3d3;
 }
 

@@ -33,13 +33,14 @@ header {
 .social {
     display: flex;
     height: 60px;
+    padding: 0 1.5em;
     justify-content: end;
     align-items: center;
     background: linear-gradient(to right, $myOrange 10%, $myBlack 70%);
     ul {
         display: flex;
         li {
-            padding: 0 1em;
+            padding: 0 1.5em;
             color: $myGrey;
             &:hover {
                 scale: 1.1;
