@@ -10,6 +10,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #272a31;
+  min-height: 100vh;
 }
 
 a {
@@ -132,7 +133,10 @@ nav h2,
 
 nav h2 a,
 .nav-links h2 a {
-  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ec5242), color-stop(60%, #272a31));
+  background: linear-gradient(#ec5242 40%, #272a31 60%);
+  background-clip: text;
+  color: transparent;
 }
 
 .nav-links .nav-link {

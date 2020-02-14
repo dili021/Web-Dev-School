@@ -180,34 +180,126 @@ nav h2 a,
   color: #272a31;
 }
 
-.about {
-  width: 40vw;
-  border: 3px solid whitesmoke;
-  padding: 2em;
-  color: #272a31;
-}
-
-.about h1 {
-  display: block;
-  margin: 0;
-  padding: 0.5em;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #272a31), color-stop(50%, #ec5242));
-  background: linear-gradient(#272a31 15%, #ec5242 50%);
-  background-clip: text;
-  color: transparent;
+h3 {
+  padding: 1em;
   text-align: center;
   font-family: "cocogoose", Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  font-size: 3em;
 }
 
-.about h3 {
-  font-family: 'lato', Arial, Helvetica, sans-serif;
+h3 span {
+  color: #ec5242;
+}
+
+h3 span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h3 i {
+  padding: 0.7em;
+  color: #ec5242;
+}
+
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   text-align: center;
-  padding-top: 1.5em;
+  -webkit-box-flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
+  padding: 1.5em;
+  margin: 1em 3em;
+  -webkit-box-shadow: 0 0 15px gray;
+  box-shadow: 0 0 15px gray;
+  -o-border-image: linear-gradient(to bottom right, #272a31, #ec5242 85%) 1/10px;
+  border-image: -webkit-gradient(linear, left top, right bottom, from(#272a31), color-stop(85%, #ec5242)) 1/10px;
+  border-image: linear-gradient(to bottom right, #272a31, #ec5242 85%) 1/10px;
+}
+
+.options * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.options h5 {
+  color: #ec5242;
+  font-family: "cocogoose", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.options .fa-code {
+  padding: 0;
+  display: inline;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-animation: rotation 0.7s infinite ease-in-out;
+  animation: rotation 0.7s infinite ease-in-out;
+}
+
+.options p {
+  margin: 0;
+  text-shadow: 1px 1px 3px grey;
+}
+
+.options i {
+  padding: 0.5em;
+  color: #ec5242;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
 }
 
 @media (max-width: 767px) {
+  .options {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .options .fa-code,
+  .options section {
+    padding: 1em;
+  }
+
+  .fa-chevron-right {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
   .no-mobile,
   nav,
   .nav-links {
@@ -217,21 +309,5 @@ nav h2 a,
   .mobile {
     color: white;
     display: block;
-  }
-
-  .container {
-    display: -ms-grid;
-    display: grid;
-    place-items: center;
-  }
-
-  .container .about {
-    padding: 3em;
-    text-align: center;
-  }
-
-  .container .about h1 {
-    text-align: center;
-    padding: 0;
   }
 }
