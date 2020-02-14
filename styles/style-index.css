@@ -1,14 +1,19 @@
 @font-face {
-  font-family: 'cocogoose', 'arial';
-  src: url(assets/fonts/coco/Cocogoose-Pro-Regular-Trial.ttf);
+  font-family: 'cocogoose';
+  src: url(/Web-Dev-School/assets/fonts/coco/Cocogoose-Pro-Regular-Trial.ttf);
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "cocogoose", Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  color: #272a31;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -28,13 +33,41 @@ main {
   z-index: 2;
 }
 
+.container {
+  background: url(/Web-Dev-School/assets/bckg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 3em;
+  z-index: 1;
+  position: relative;
+}
+
+footer {
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #d3d3d3;
+}
+
 header {
-  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-family: "cocogoose", Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
   border-bottom: 2px solid #d3d3d3;
   -webkit-box-shadow: 0 2px 9px black;
   box-shadow: 0 2px 9px black;
   z-index: 5;
   position: relative;
+}
+
+header a {
+  color: #272a31;
 }
 
 .mobile {
@@ -93,9 +126,13 @@ nav,
 nav h2,
 .nav-links h2 {
   margin: 0 2.5em;
-  color: white;
   text-shadow: 0 0 9px #272a31;
   cursor: pointer;
+}
+
+nav h2 a,
+.nav-links h2 a {
+  color: white;
 }
 
 .nav-links .nav-link {
@@ -152,7 +189,7 @@ nav h2,
   padding: 0.5em;
   color: #ec5242;
   text-align: center;
-  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-family: "cocogoose", Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 3em;
   text-shadow: 0 0 3px black;
@@ -162,30 +199,6 @@ nav h2,
   font-family: 'lato', Arial, Helvetica, sans-serif;
   text-align: center;
   padding-top: 1.5em;
-}
-
-.container {
-  background: url(/assets/bckg.png);
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  padding: 3em;
-  z-index: 1;
-  position: relative;
-}
-
-footer {
-  height: 5vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: #d3d3d3;
 }
 
 @media (max-width: 767px) {
