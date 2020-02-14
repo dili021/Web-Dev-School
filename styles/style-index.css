@@ -43,20 +43,6 @@ main {
   position: relative;
 }
 
-footer {
-  height: 5vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #d3d3d3;
-}
-
 header {
   font-family: "cocogoose", Arial, Helvetica, sans-serif;
   font-size: .9em;

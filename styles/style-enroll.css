@@ -43,7 +43,19 @@ main {
   position: relative;
 }
 
-
+footer {
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #d3d3d3;
+}
 
 header {
   font-family: "cocogoose", Arial, Helvetica, sans-serif;
@@ -165,20 +177,6 @@ nav h2 a, .nav-links h2 a {
   color: #272a31;
 }
 
-footer {
-  height: 5vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: #d3d3d3;
-}
-
 h3 {
   padding: 1em;
   text-align: center;
@@ -207,9 +205,6 @@ h3 i {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   text-align: center;
-  -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
   padding: 1.5em;
   margin: 1em 3em;
   -webkit-box-shadow: 0 0 15px gray;
