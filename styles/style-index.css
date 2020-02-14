@@ -37,7 +37,6 @@ main {
   background: url(/Web-Dev-School/assets/bckg.png);
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
   padding: 3em;
   z-index: 1;
   position: relative;

@@ -37,7 +37,6 @@ main {
   background: url(/Web-Dev-School/assets/bckg.png);
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
   padding: 3em;
   z-index: 1;
   position: relative;
@@ -194,7 +193,7 @@ nav h2 a, .nav-links h2 a {
 }
 
 .about-school {
-  margin: 5em auto;
+  margin: 3em auto;
   width: 65vw;
   border: 3px solid #d3d3d3;
   background: white;
@@ -216,6 +215,8 @@ nav h2 a, .nav-links h2 a {
 }
 
 .aditional {
+  max-width: 500px;
+  margin: auto;
   text-align: center;
   font-size: .8em;
 }
