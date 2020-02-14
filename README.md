@@ -1,20 +1,16 @@
-> Title 
+>Capstone HTML&CSS Project at Microverse
 
-![screenshot]()
+![screenshot](assets/Screenshot_2020-02-14 Learn-to code.png)
 
 
 # Built With
 
-
+HTML, CSS
 
 
 # Live Demo
 
-[Live Demo Link]()
-
-# Getting Started
-
-
+[Live Demo Link](https://gifted-morse-5d1101.netlify.com)
 
 # Prerequisites
 
@@ -65,5 +61,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+Credit to Cindy Shin for design inspiration
 
-## 📝 License
+
