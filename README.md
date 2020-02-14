@@ -1,6 +1,6 @@
 >Capstone HTML&CSS Project at Microverse
 
-![screenshot](assets/Screenshot_2020-02-14 Learn-to code.png)
+![screenshot](assets/screenshot.png)
 
 
 # Built With
