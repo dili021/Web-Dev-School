@@ -20,6 +20,7 @@ body {
   background-position: center;
   padding: 3em;
   z-index: 1;
+  min-height: 100vh;
   position: relative;
 }
 
