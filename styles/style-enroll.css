@@ -44,14 +44,6 @@ main {
   position: relative;
 }
 
-footer {
-  width: 100%;
-  text-align: center;
-  background: #d3d3d3;
-  position: absolute;
-  bottom: 0;
-}
-
 header {
   font-family: "cocogoose", Arial, Helvetica, sans-serif;
   font-size: .9em;
@@ -170,6 +162,13 @@ nav h2 a, .nav-links h2 a {
 
 .nav-links .enroll:hover a {
   color: #272a31;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: #d3d3d3;
+  z-index: 5;
 }
 
 h3 {

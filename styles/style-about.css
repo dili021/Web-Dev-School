@@ -168,8 +168,7 @@ footer {
   width: 100%;
   text-align: center;
   background: #d3d3d3;
-  position: absolute;
-  bottom: 0;
+  z-index: 5;
 }
 
 .page-header {
