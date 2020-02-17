@@ -120,6 +120,7 @@ nav h2, .nav-links h2 {
 nav h2 a, .nav-links h2 a {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ec5242), color-stop(60%, #272a31));
   background-image: linear-gradient(#ec5242 40%, #272a31 60%);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
@@ -187,6 +188,7 @@ footer {
   padding: .5em;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #272a31), color-stop(50%, #ec5242));
   background-image: linear-gradient(#272a31 15%, #ec5242 50%);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-align: center;
