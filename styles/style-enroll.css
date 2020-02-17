@@ -168,7 +168,13 @@ footer {
   width: 100%;
   text-align: center;
   background: #d3d3d3;
+  position: absolute;
+  bottom: 0;
   z-index: 5;
+}
+
+body {
+  padding-bottom: 3em;
 }
 
 h3 {
@@ -224,7 +230,7 @@ h3 i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1em;
+  padding: .2em;
 }
 
 .options h5 {
@@ -233,6 +239,7 @@ h3 i {
   margin: 0;
   font-size: 1.3em;
   text-shadow: 1px 1px 2px grey;
+  word-wrap: break-word;
 }
 
 .options .fa-code {
@@ -279,10 +286,11 @@ h3 i {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: .2em;
   }
   .options .fa-code,
   .options section {
-    padding: 1em;
+    padding: .2em;
   }
   .fa-chevron-right {
     -webkit-transform: rotate(90deg);
