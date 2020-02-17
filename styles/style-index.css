@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background: url(/Web-Dev-School/assets/bckg.png);
+  background: url(../assets/bckg.png);
   background-size: cover;
   background-position: center;
   padding: 3em;
