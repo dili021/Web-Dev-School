@@ -63,4 +63,5 @@ Give a ⭐️ if you like this project!
 
 Credit to Cindy Shin for [design inspiration](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
+All teacher photos are courtesy of [generated.photos](https://generated.photos)
 

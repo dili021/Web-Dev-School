@@ -43,6 +43,7 @@ ul {
 
 main {
   z-index: 2;
+  margin-bottom: 8em;
 }
 
 header {
@@ -165,10 +166,25 @@ nav h2 a, .nav-links h2 a {
 footer {
   width: 100%;
   text-align: center;
-  background: #d3d3d3;
+  background: #272a31;
+  color: #d3d3d3;
   position: absolute;
   bottom: 0;
   z-index: 5;
+}
+
+footer h4 {
+  margin: 0;
+  padding: .5em;
+}
+
+footer i {
+  padding: .5em;
+  cursor: pointer;
+}
+
+footer i:hover {
+  color: white;
 }
 
 .about {

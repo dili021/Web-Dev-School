@@ -43,6 +43,7 @@ ul {
 
 main {
   z-index: 2;
+  margin-bottom: 8em;
 }
 
 header {
@@ -165,10 +166,25 @@ nav h2 a, .nav-links h2 a {
 footer {
   width: 100%;
   text-align: center;
-  background: #d3d3d3;
+  background: #272a31;
+  color: #d3d3d3;
   position: absolute;
   bottom: 0;
   z-index: 5;
+}
+
+footer h4 {
+  margin: 0;
+  padding: .5em;
+}
+
+footer i {
+  padding: .5em;
+  cursor: pointer;
+}
+
+footer i:hover {
+  color: white;
 }
 
 body {
@@ -212,9 +228,6 @@ h3 i {
   margin: 1em 3em;
   -webkit-box-shadow: 0 0 15px gray;
           box-shadow: 0 0 15px gray;
-  -o-border-image: linear-gradient(to bottom right, #272a31, #ec5242 85%) 1/10px;
-     border-image: -webkit-gradient(linear, left top, right bottom, from(#272a31), color-stop(85%, #ec5242)) 1/10px;
-     border-image: linear-gradient(to bottom right, #272a31, #ec5242 85%) 1/10px;
 }
 
 .options * {
@@ -233,10 +246,9 @@ h3 i {
 
 .options h5 {
   color: #ec5242;
-  font-family: "cocogoose", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin: 0;
   font-size: 1.3em;
-  text-shadow: 1px 1px 2px grey;
   word-wrap: break-word;
 }
 
@@ -252,11 +264,80 @@ h3 i {
 
 .options p {
   margin: 0;
-  text-shadow: 1px 1px 3px grey;
 }
 
 .options i {
   padding: .5em;
+  color: #ec5242;
+}
+
+.teacher-box {
+  margin: 1em 3em;
+  padding: .5em;
+  -webkit-box-shadow: 0 0 15px gray;
+          box-shadow: 0 0 15px gray;
+}
+
+.teacher-box h2 {
+  color: #ec5242;
+  text-align: center;
+}
+
+.teachers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1em;
+}
+
+.teachers .teacher {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.teachers .teacher .teacher-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.teachers .teacher h4 {
+  padding: .5em;
+  margin: 0;
+  font-family: "cocogoose", Arial;
+  font-size: .8em;
+}
+
+.teachers .teacher img {
+  float: left;
+  width: 150px;
+  padding: .5em;
+}
+
+.teachers .teacher p {
+  font-size: .7em;
+}
+
+.teachers .teacher small {
+  color: #ec5242;
+  font-style: italic;
+  font-size: .7em;
+}
+
+.in-between {
+  text-align: center;
+  margin: 1em;
   color: #ec5242;
 }
 
@@ -285,10 +366,23 @@ h3 i {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 1em;
+    margin: .2em;
   }
   .options .fa-code,
   .options section {
     padding: .2em;
+  }
+  .teacher-box {
+    margin: .2em;
+  }
+  .teacher-box .teachers {
+    padding: 0 0 .2em 0;
+  }
+  .teacher {
+    min-width: 100%;
+  }
+  .teacher img {
+    padding: 0;
   }
   .fa-chevron-right {
     -webkit-transform: rotate(90deg);

@@ -43,6 +43,7 @@ ul {
 
 main {
   z-index: 2;
+  margin-bottom: 8em;
 }
 
 header {
@@ -165,10 +166,25 @@ nav h2 a, .nav-links h2 a {
 footer {
   width: 100%;
   text-align: center;
-  background: #d3d3d3;
+  background: #272a31;
+  color: #d3d3d3;
   position: absolute;
   bottom: 0;
   z-index: 5;
+}
+
+footer h4 {
+  margin: 0;
+  padding: .5em;
+}
+
+footer i {
+  padding: .5em;
+  cursor: pointer;
+}
+
+footer i:hover {
+  color: white;
 }
 
 .page-header {
@@ -176,7 +192,6 @@ footer {
   color: #ec5242;
   font-family: "cocogoose", Arial, Helvetica, sans-serif;
   font-size: 3em;
-  text-shadow: 0 0 3px #272a31;
 }
 
 .line {
@@ -197,7 +212,6 @@ footer {
   background: white;
   padding: 1em;
   text-align: center;
-  text-shadow: 1px 1px 4px grey;
   -webkit-box-shadow: 0 0 40px black;
           box-shadow: 0 0 40px black;
 }
