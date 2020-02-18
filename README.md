@@ -61,6 +61,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Credit to Cindy Shin for design inspiration
+Credit to Cindy Shin for [design inspiration](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
 
