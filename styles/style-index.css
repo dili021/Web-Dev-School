@@ -10,7 +10,7 @@ body {
   padding: 0;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #272a31;
 }
 
@@ -34,11 +34,11 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 main {
@@ -54,11 +54,11 @@ footer {
 
 footer h4 {
   margin: 0;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 footer i {
-  padding: .5em;
+  padding: 0.5em;
   cursor: pointer;
 }
 
@@ -68,10 +68,10 @@ footer i:hover {
 
 header {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
   border-bottom: 2px solid #d3d3d3;
   -webkit-box-shadow: 0 2px 9px black;
-          box-shadow: 0 2px 9px black;
+  box-shadow: 0 2px 9px black;
   z-index: 5;
   position: relative;
 }
@@ -91,11 +91,11 @@ header a {
   height: 30px;
   padding: 0 1.5em;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #272a31;
 }
 
@@ -114,35 +114,38 @@ header a {
   scale: 1.1;
   text-shadow: 0 0 4px white;
   cursor: pointer;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
-nav, .nav-links {
+nav,
+.nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 60px;
 }
 
-nav h2, .nav-links h2 {
+nav h2,
+.nav-links h2 {
   margin: 0 2.5em;
   cursor: pointer;
 }
 
-nav h2 span, .nav-links h2 span {
+nav h2 span,
+.nav-links h2 span {
   color: #ec5242;
 }
 
 .nav-links .enroll {
   margin-right: 1em;
-  padding: .3em 1.5em;
+  padding: 0.3em 1.5em;
   font-weight: bold;
   border: 4px solid #ec5242;
 }
@@ -156,8 +159,8 @@ nav h2 span, .nav-links h2 span {
   scale: 1;
   background: #ec5242;
   text-shadow: 0 0 8px white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   font-size: 1.3em;
 }
 
@@ -168,15 +171,17 @@ nav h2 span, .nav-links h2 span {
 .nav-link {
   padding: 1em 3em;
   font-size: 1.3em;
-  margin: 0 .2em;
+  margin: 0 0.2em;
 }
 
-.nav-link:hover, nav h2:hover, .nav-links h2:hover {
+.nav-link:hover,
+nav h2:hover,
+.nav-links h2:hover {
   cursor: pointer;
   text-shadow: 0 0 3px #272a31;
   scale: 1.1;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .about {
@@ -189,7 +194,7 @@ nav h2 span, .nav-links h2 span {
 .about h1 {
   display: block;
   margin: 0;
-  padding: .5em;
+  padding: 0.5em;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #272a31), color-stop(50%, #ec5242));
   background-image: linear-gradient(#272a31 15%, #ec5242 50%);
   background-clip: text;
@@ -211,29 +216,35 @@ nav h2 span, .nav-links h2 span {
   .social {
     display: none;
   }
+
   .nav-link {
-    padding: .3em;
+    padding: 0.3em;
   }
+
   .nav-links {
-    padding: .1em 0;
+    padding: 0.1em 0;
   }
-  nav h2, .nav-links h2 {
-    margin: .3em;
+
+  nav h2,
+  .nav-links h2 {
+    margin: 0.3em;
   }
+
   .container {
     display: -ms-grid;
     display: grid;
     place-items: center;
     padding: 1em;
   }
+
   .container .about {
     padding: 3em;
     text-align: center;
     width: initial;
   }
+
   .container .about h1 {
     text-align: center;
     padding: 0;
   }
 }
-/*# sourceMappingURL=style-index.css.map */
