@@ -46,7 +46,6 @@ main {
 }
 
 footer {
-  width: 100%;
   text-align: center;
   background: #272a31;
   color: #d3d3d3;
@@ -169,6 +168,7 @@ nav h2 span, .nav-links h2 span {
 .nav-link {
   padding: 1em 3em;
   font-size: 1.3em;
+  margin: 0 .2em;
 }
 
 .nav-link:hover, nav h2:hover, .nav-links h2:hover {

@@ -147,6 +147,7 @@ nav h2 span, .nav-links h2 span {
 .nav-link {
   padding: 1em 3em;
   font-size: 1.3em;
+  margin: 0 .2em;
 }
 
 .nav-link:hover, nav h2:hover, .nav-links h2:hover {
@@ -158,7 +159,6 @@ nav h2 span, .nav-links h2 span {
 }
 
 footer {
-  width: 100%;
   text-align: center;
   background: #272a31;
   color: #d3d3d3;
@@ -180,18 +180,17 @@ footer i:hover {
 }
 
 main {
-  min-height: 80vh;
+  min-height: 100vh;
   background: #272a31;
   color: white;
 }
 
 .program {
-  padding: 5em 3em;
+  padding: 3em;
 }
 
 .program h3 {
-  width: 30%;
-  padding: .5em;
+  padding: .5em 0;
   margin: 1.5em auto;
   text-align: center;
   font-size: 2em;
@@ -238,24 +237,47 @@ main {
   padding: .3em;
 }
 
+.see-more {
+  margin: 0;
+  padding: 3em;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
 @media (max-width: 767px) {
-  .program > h3 {
-    width: 100%;
-    padding: 0;
-  }
   .flex-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .program {
+    padding: 2em 0;
+  }
   .program-box {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 3fr;
-        grid-template-columns: 1fr 3fr;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
     place-items: center;
     grid-auto-flow: column;
+  }
+  .program-box ul {
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  .social {
+    display: none;
+  }
+  .nav-link {
+    padding: .3em;
+  }
+  .nav-links {
+    padding: .1em 0;
+  }
+  nav h2, .nav-links h2 {
+    margin: .3em;
   }
 }
 /*# sourceMappingURL=style-program.css.map */
