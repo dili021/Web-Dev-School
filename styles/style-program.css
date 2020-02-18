@@ -190,8 +190,12 @@ main {
 }
 
 .program h3 {
+  width: 30%;
+  padding: .5em;
+  margin: 1.5em auto;
   text-align: center;
   font-size: 2em;
+  border-bottom: 3px solid #ec5242;
 }
 
 .program h4 {
@@ -235,6 +239,10 @@ main {
 }
 
 @media (max-width: 767px) {
+  .program > h3 {
+    width: 100%;
+    padding: 0;
+  }
   .flex-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
