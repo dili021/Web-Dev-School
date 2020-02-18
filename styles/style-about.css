@@ -117,7 +117,14 @@ nav h2,
   cursor: pointer;
 }
 
-nav h2 span,
+nav h2 span {
+  color: #ec5242;
+}
+
+.aditional span {
+  color: #ec5242;
+}
+
 .nav-links h2 span {
   color: #ec5242;
 }
@@ -228,10 +235,6 @@ footer i:hover {
   margin: auto;
   text-align: center;
   font-size: 0.8em;
-}
-
-.aditional span {
-  color: #ec5242;
 }
 
 .aditional span:hover {

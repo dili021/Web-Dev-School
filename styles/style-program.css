@@ -88,10 +88,12 @@ header a {
   padding: 0 1.5em;
   color: #d3d3d3;
 }
+
 .program-box ul li {
   font-size: 0.9em;
   padding: 0.3em;
 }
+
 .social ul li:hover {
   scale: 1.1;
   text-shadow: 0 0 4px white;
@@ -239,8 +241,6 @@ footer i:hover {
   display: block;
   list-style: disc;
 }
-
-
 
 .see-more {
   margin: 0;

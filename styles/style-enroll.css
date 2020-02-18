@@ -117,6 +117,10 @@ nav h2,
   cursor: pointer;
 }
 
+h3 span {
+  color: #ec5242;
+}
+
 nav h2 span,
 .nav-links h2 span {
   color: #ec5242;
@@ -153,6 +157,11 @@ nav h2 span,
   margin: 0 0.2em;
 }
 
+.teacher-box h2 {
+  color: #ec5242;
+  text-align: center;
+}
+
 .nav-link:hover,
 nav h2:hover,
 .nav-links h2:hover {
@@ -180,6 +189,16 @@ footer i {
   cursor: pointer;
 }
 
+h3 i {
+  padding: 0.7em;
+  color: #ec5242;
+}
+
+.options i {
+  padding: 0.5em;
+  color: #ec5242;
+}
+
 footer i:hover {
   color: white;
 }
@@ -190,18 +209,9 @@ h3 {
   font-family: "cocogoose", Arial, Helvetica, sans-serif;
 }
 
-h3 span {
-  color: #ec5242;
-}
-
 h3 span:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-
-h3 i {
-  padding: 0.7em;
-  color: #ec5242;
 }
 
 .wrapper {
@@ -259,21 +269,11 @@ h3 i {
   margin: 0;
 }
 
-.options i {
-  padding: 0.5em;
-  color: #ec5242;
-}
-
 .teacher-box {
   margin: 3em;
   padding: 0.5em;
   -webkit-box-shadow: 0 0 15px gray;
   box-shadow: 0 0 15px gray;
-}
-
-.teacher-box h2 {
-  color: #ec5242;
-  text-align: center;
 }
 
 .teachers {
@@ -308,7 +308,7 @@ h3 i {
 .teachers .teacher h4 {
   padding: 0.5em;
   margin: 0;
-  font-family: "cocogoose", Arial;
+  font-family: "cocogoose", Arial, Helvetica, sans-serif;
   font-size: 0.8em;
 }
 
