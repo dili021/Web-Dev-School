@@ -45,7 +45,7 @@ npm install stylelint-config-recommended --save-dev
 👤 **Author**
 Stefan Dili
 
-[@github](https://github.com/dili021)
+[@github](https://github.com/dili021) 
 
 [@twitter](https://twitter.com/dilistefan)
 
