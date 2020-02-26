@@ -1,20 +1,16 @@
-> Title 
+>Capstone HTML&CSS Project at Microverse
 
-![screenshot]()
+![screenshot](assets/screenshot.png)
 
 
 # Built With
 
-
+HTML, CSS, Sass
 
 
 # Live Demo
 
-[Live Demo Link]()
-
-# Getting Started
-
-
+[Live Demo Link](https://gifted-morse-5d1101.netlify.com)
 
 # Prerequisites
 
@@ -49,7 +45,7 @@ npm install stylelint-config-recommended --save-dev
 👤 **Author**
 Stefan Dili
 
-[@github](https://github.com/dili021)
+[@github](https://github.com/dili021) 
 
 [@twitter](https://twitter.com/dilistefan)
 
@@ -65,5 +61,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+Credit to Cindy Shin for [design inspiration](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
-## 📝 License
+All teacher photos are courtesy of [generated.photos](https://generated.photos)
+

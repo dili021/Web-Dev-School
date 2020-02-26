@@ -117,14 +117,11 @@ nav h2,
   cursor: pointer;
 }
 
-nav h2 span {
+h3 span {
   color: #ec5242;
 }
 
-.aditional span {
-  color: #ec5242;
-}
-
+nav h2 span,
 .nav-links h2 span {
   color: #ec5242;
 }
@@ -160,6 +157,11 @@ nav h2 span {
   margin: 0 0.2em;
 }
 
+.teacher-box h2 {
+  color: #ec5242;
+  text-align: center;
+}
+
 .nav-link:hover,
 nav h2:hover,
 .nav-links h2:hover {
@@ -187,62 +189,207 @@ footer i {
   cursor: pointer;
 }
 
+h3 i {
+  padding: 0.7em;
+  color: #ec5242;
+}
+
+.options i {
+  padding: 0.5em;
+  color: #ec5242;
+}
+
 footer i:hover {
   color: white;
 }
 
-.page-header {
-  text-align: center;
-  color: #ec5242;
-  font-family: "cocogoose", Arial, Helvetica, sans-serif;
-  font-size: 3em;
-}
-
-.line {
-  content: "";
-  background: #ec5242;
-  width: 15vw;
-  height: 10px;
-  margin: 0 auto 2em auto;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 0 10px black;
-  box-shadow: 0 0 10px black;
-}
-
-.about-school {
-  margin: 3em auto;
-  width: 65vw;
-  border: 3px solid #d3d3d3;
-  background: white;
+h3 {
   padding: 1em;
   text-align: center;
-  -webkit-box-shadow: 0 0 40px black;
-  box-shadow: 0 0 40px black;
-}
-
-.about-school h3 {
   font-family: "cocogoose", Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
 }
 
-.about-school p {
-  font-family: 'lato', Arial, Helvetica, sans-serif;
-  color: #ec5242;
-}
-
-.aditional {
-  max-width: 500px;
-  margin: auto;
-  text-align: center;
-  font-size: 0.8em;
-}
-
-.aditional span:hover {
+h3 span:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
+.wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1.5em;
+  margin: 1em 3em;
+  -webkit-box-shadow: 0 0 15px gray;
+  box-shadow: 0 0 15px gray;
+}
+
+.options * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.2em;
+}
+
+.options h5 {
+  color: #ec5242;
+  font-family: 'lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  font-size: 1.3em;
+  word-wrap: break-word;
+}
+
+.options .fa-code {
+  padding: 0;
+  display: inline;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-animation: rotation 0.7s infinite ease-in-out;
+  animation: rotation 0.7s infinite ease-in-out;
+}
+
+.options p {
+  margin: 0;
+}
+
+.teacher-box {
+  margin: 3em;
+  padding: 0.5em;
+  -webkit-box-shadow: 0 0 15px gray;
+  box-shadow: 0 0 15px gray;
+}
+
+.teachers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.teachers .teacher {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+
+.teachers .teacher .teacher-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+}
+
+.teachers .teacher h4 {
+  padding: 0.5em;
+  margin: 0;
+  font-family: "cocogoose", Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+
+.teachers .teacher img {
+  float: left;
+  width: 150px;
+  padding: 0.5em;
+}
+
+.teachers .teacher p {
+  font-size: 0.7em;
+}
+
+.teachers .teacher small {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 0.7em;
+}
+
+.in-between {
+  text-align: center;
+  margin: 1em;
+  color: #ec5242;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
 @media (max-width: 767px) {
+  .options {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 1em;
+    margin: 0.2em;
+  }
+
+  .options .fa-code,
+  .options section {
+    padding: 0.2em;
+  }
+
+  .teacher-box {
+    margin: 0.2em;
+  }
+
+  .teacher-box .teachers {
+    padding: 0 0 0.2em 0;
+  }
+
+  .teacher {
+    min-width: 100%;
+  }
+
+  .teacher img {
+    padding: 0;
+  }
+
+  .fa-chevron-right {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
   .social {
     display: none;
   }
