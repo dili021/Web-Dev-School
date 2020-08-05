@@ -40,16 +40,13 @@ npm install stylelint-config-recommended --save-dev
 - Upload all the files in the htdocs folder of your domain
 - Access your domain name in browser
 
-## Authors
+## Author
 
-👤 **Author**
-Stefan Dili
-
-[@github](https://github.com/dili021) 
-
-[@twitter](https://twitter.com/dilistefan)
-
-[@linkedin](https://linkedin.com/in/stefan-dili)
+#### Stefan Dili
+- [Website](https://stefan-dili.tech)
+- LinkedIn: [Stefan Dili](https://www.linkedin.com/in/stefan-dili/)
+- Twitter: [@dilistefan](https://twitter.com/dilistefan)
+- Email: contact@stefan-dili.tech
 
 ## 🤝 Contributing
 
