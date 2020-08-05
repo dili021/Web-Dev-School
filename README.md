@@ -1,11 +1,13 @@
->Capstone HTML&CSS Project at Microverse
+> Fully responsive front-end for a web development bootcamp
 
 ![screenshot](assets/screenshot.png)
 
 
 # Built With
 
-HTML, CSS, Sass
+- HTML
+- CSS
+- SASS
 
 
 # Live Demo
